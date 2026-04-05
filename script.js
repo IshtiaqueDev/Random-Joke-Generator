@@ -14,7 +14,6 @@ let url=fetch('https://icanhazdadjoke.com/' ,{
 .then(data=>data.json())
 .then((data)=>{
     let d=data  ;
-    console.log(d.joke);
     h3.innerText=d.joke;
     
 })
